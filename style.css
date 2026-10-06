@@ -28,6 +28,10 @@ header{
    color: rgb(255, 255, 253);
 }
 
+.cabeçalho:hover{
+    background-color: #afe1ae;
+}
+
 
 #texto-1{
     padding: 30px;
@@ -116,7 +120,8 @@ footer{
    text-align: center;
    color: #3a3736;
    padding-top: 70px;
-   
+   margin-bottom: 10px;
+
 }
 
 .textos{
@@ -147,6 +152,3 @@ footer{
     width: 133px;
 }
 
-.textos-momentos{
-    color: antiquewhite;
-}

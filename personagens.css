@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} /*reset básico*/
+
+header{
+    background-color: #e3f1ac;
+    font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  height: 200px;
+}
+
+.cabeçalho{
+   padding: 10px; /*espaçamento interno entre o conteudo e a borda*/
+   margin: 15px; /*espaçamento externo entre as caixas*/
+   background-color: #875211;
+   border-radius: 60px; /*arredonda as bordas*/
+   font-size: 40px;
+   text-align: center;
+   color: rgb(255, 255, 253);
+}
+
+.cabeçalho:hover{
+    background-color: #afe1ae;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center    ;
+    flex-direction: row;
+    gap: 30px;
+    height: 80vh;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+   
+}
+
+.itens{
+    width: 300px;
+    height: 450px;
+    background-color: #fdf392;
+    font-size: 20px;
+    border-radius: 30px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: #875211;
+}
+
+.itens:hover{
+    transform:translateY(-40px);
+    background-color: rgb(212, 168, 181);
+    transition: 2s;
+}
+
+.img-personagens{
+    width: 90%;
+    height: 80%;
+    padding: 20px;
+    object-fit: cover;
+    
+
+
+}
+
+.caracteristicas{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+   font-size: 25px;
+    gap: 10px;
+    font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+   
+    
+}
+
+.cor-1{
+    background-color: darkolivegreen;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+
+.cor-1:hover{
+    background-color: rgb(0, 255, 234);
+    color: aliceblue;
+}
+
+.cor-2{
+    background-color: rgb(203, 255, 112);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.cor-2:hover{
+    background-color: rgb(252, 132, 192);
+    color: aliceblue;
+}
+
+footer{
+    height: 135px;
+   background-color: #875211;
+   text-align: center;
+   color: #3a3736;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+   
